@@ -174,5 +174,5 @@ Contains:
 
 ## Domain
 
-Artificial Intelligence & Machine Learning (AI/ML)
-Stroke Risk Prediction using Machine Learning
+* Artificial Intelligence & Machine Learning (AI/ML)
+* Stroke Risk Prediction using Machine Learning
