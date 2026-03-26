@@ -1,9 +1,9 @@
 # Stroke Prediction using EDA and Machine Learning
 
-This project is developed for **Healthcare & Medical Analytics domain**.
-It performs Exploratory Data Analysis (EDA), preprocessing, machine learning modeling, evaluation, and report generation for stroke prediction using a public healthcare dataset.
+This project is developed in the **Artificial Intelligence & Machine Learning (AI/ML) domain**.
+It performs Exploratory Data Analysis (EDA), data preprocessing, machine learning modeling, evaluation, and report generation for stroke prediction using a public healthcare dataset.
 
-The project includes Logistic Regression, SVM, and Random Forest models, with class balancing and SMOTE to handle imbalanced data.
+The system uses multiple machine learning algorithms including Logistic Regression, Support Vector Machine (SVM), and Random Forest, with class balancing and SMOTE to handle imbalanced data.
 
 GitHub Copilot was used during development for assisted code generation.
 
@@ -12,55 +12,59 @@ GitHub Copilot was used during development for assisted code generation.
 ## Dataset
 
 Dataset used:
-healthcare-dataset-stroke-data.csv
+`healthcare-dataset-stroke-data.csv`
 
 Target variable:
-stroke (0 = No, 1 = Yes)
+
+```
+stroke (0 = No Stroke, 1 = Stroke)
+```
 
 ---
 
-## Files
+## Project Files
 
-Disease_Prediction_from_medical_data.py
-Main script for preprocessing, training, evaluation, ROC/PR curves, feature importance, and metrics.
+* **Disease_Prediction_from_medical_data.py**
+  Main script for preprocessing, training, evaluation, ROC/PR curves, feature importance, and metrics.
 
-eda_healthcare_stroke.py
-Standalone EDA script that generates plots and summary statistics.
+* **eda_healthcare_stroke.py**
+  Standalone EDA script that generates plots and summary statistics.
 
-build_report.py
-Generates styled HTML report from EDA outputs and model results.
+* **build_report.py**
+  Generates styled HTML report from EDA outputs and model results.
 
-model_evaluation.py
-Runs evaluation, confusion matrix, and classification report.
+* **model_evaluation.py**
+  Runs evaluation, confusion matrix, and classification report.
 
-test_pipeline.py
-Test script to verify EDA and training pipeline.
+* **test_pipeline.py**
+  Test script to verify EDA and training pipeline.
 
-requirements.txt
-Python dependencies.
+* **requirements.txt**
+  Python dependencies required for the project.
 
-healthcare-dataset-stroke-data.csv
-Input dataset.
+* **healthcare-dataset-stroke-data.csv**
+  Input dataset used for training and analysis.
 
 ---
 
 ## Requirements
 
-Install dependencies:
+Install dependencies using:
 
+```
 pip install -r requirements.txt
+```
 
 Libraries used:
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+* imbalanced-learn
 
 ---
-
-## Usage
 
 ## Usage
 
@@ -106,25 +110,24 @@ python model_evaluation.py
 pytest
 ```
 
-
 ---
 
 ## Features
 
-Exploratory Data Analysis
-Missing value handling
-Feature encoding
-Logistic Regression
-SVM
-Random Forest
-Class imbalance handling
-SMOTE oversampling
-ROC Curve
-Precision-Recall Curve
-Feature Importance
-Metrics comparison
-Confusion Matrix
-HTML Report generation
+* Exploratory Data Analysis (EDA)
+* Missing value handling
+* Feature encoding
+* Logistic Regression model
+* Support Vector Machine (SVM)
+* Random Forest classifier
+* Class imbalance handling
+* SMOTE oversampling
+* ROC Curve analysis
+* Precision–Recall Curve
+* Feature importance analysis
+* Metrics comparison
+* Confusion Matrix
+* HTML Report generation
 
 ---
 
@@ -132,42 +135,44 @@ HTML Report generation
 
 Generated in folder:
 
+```
 eda_outputs/
+```
 
 Contains:
 
-plots
-csv summaries
-roc / pr curves
-comparison graphs
-eda_report.html
+* Plots
+* CSV summaries
+* ROC / PR curves
+* Model comparison graphs
+* eda_report.html
 
 ---
 
 ## Notes
 
-Dataset is highly imbalanced
-Balanced models improve recall
-SMOTE improves minority detection
-Threshold tuning used for better prediction
+* Dataset is highly imbalanced
+* Balanced models improve recall
+* SMOTE improves minority class detection
+* Threshold tuning used for better prediction performance
 
 ---
 
 ## Tools Used
 
-Python
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-imbalanced-learn
-GitHub Copilot
-VS Code
+* Python
+* scikit-learn
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* imbalanced-learn
+* GitHub Copilot
+* VS Code
 
 ---
 
 ## Domain
 
-Healthcare & Medical Analytics
+Artificial Intelligence & Machine Learning (AI/ML)
 Stroke Risk Prediction using Machine Learning
