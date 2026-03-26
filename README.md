@@ -62,33 +62,50 @@ imbalanced-learn
 
 ## Usage
 
-Run EDA only
+## Usage
 
+### Run EDA only
+
+```
 python Disease_Prediction_from_medical_data.py --eda --no-train
+```
 
-Run full training
+### Run full training
 
+```
 python Disease_Prediction_from_medical_data.py
+```
 
-Run with class balancing
+### Run with class balancing
 
+```
 python Disease_Prediction_from_medical_data.py --balance
+```
 
-Run with SMOTE
+### Run with SMOTE
 
+```
 python Disease_Prediction_from_medical_data.py --balance --smote
+```
 
-Generate report
+### Generate report
 
+```
 python build_report.py
+```
 
-Run evaluation
+### Run evaluation
 
+```
 python model_evaluation.py
+```
 
-Run tests
+### Run tests
 
+```
 pytest
+```
+
 
 ---
 
